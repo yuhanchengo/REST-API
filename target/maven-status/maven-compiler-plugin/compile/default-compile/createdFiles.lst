@@ -1,0 +1,10 @@
+rest/Application.class
+rest/controller/VehicleController.class
+rest/repository/VehicleRepository.class
+rest/resource/VehicleResource.class
+rest/resource/VehicleResourceAssembler.class
+rest/resource/ResourceAssembler.class
+rest/repository/IdGenerator.class
+rest/bean/Vehicle.class
+rest/bean/Identifiable.class
+rest/repository/InMemRepository.class
