@@ -1,4 +1,4 @@
-package rest.bean;
+package rest.domain;
 
 public class Vehicle implements Identifiable{
 	

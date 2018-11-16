@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
 
-import rest.bean.Vehicle;
+import rest.domain.Vehicle;
 
 @Component(value = "yf")
 public class YearFilter implements Filter<Vehicle>{

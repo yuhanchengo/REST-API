@@ -17,14 +17,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import rest.bean.Vehicle;
+import rest.domain.Vehicle;
 import rest.repository.Filter;
 import rest.repository.FilterManager;
 import rest.repository.VehicleRepository;
 import rest.resource.VehicleResource;
 import rest.resource.VehicleResourceAssembler;
 
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @RestController
 @ExposesResourceFor(Vehicle.class)
 @RequestMapping(value = "/vehicles", produces = "application/json")
@@ -55,6 +55,7 @@ public class VehicleController {
 	// POST vehicles
 	@RequestMapping(method = RequestMethod.POST, consumes = "application/json")
 	public ResponseEntity<VehicleResource> createVehicle(@RequestBody Vehicle newVehicle){
+		
 		if(!checkValidity(newVehicle)) {
 			return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
 		}
@@ -114,8 +115,9 @@ public class VehicleController {
 	}
 	
 	private boolean checkValidity(Vehicle vehicle) {
+		
 		return ((vehicle.getMake().isEmpty() || vehicle.getModel().isEmpty() || 
-				   vehicle.getYear() < 1950 || vehicle.getYear() > 2050) ? false : true);
+				   vehicle.getYear() < 1950 || vehicle.getYear() > 2050 ) ? false : true);
 	}
 	
 	private List<Vehicle> applyFilter(String yearVal, String makeVal, String modelVal, List<Vehicle> allVehicles){

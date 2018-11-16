@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import rest.bean.Vehicle;
+import rest.domain.Vehicle;
 
 @Component
 public class FilterChain {

@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
 
-import rest.bean.Vehicle;
+import rest.domain.Vehicle;
 
 @Component(value = "maf")
 public class MakeFilter implements Filter<Vehicle>{

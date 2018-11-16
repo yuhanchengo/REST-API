@@ -4,7 +4,7 @@ import org.springframework.hateoas.ResourceSupport;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import rest.bean.Vehicle;
+import rest.domain.Vehicle;
 
 // turn Vehicle to JSON object to user
 public class VehicleResource extends ResourceSupport{

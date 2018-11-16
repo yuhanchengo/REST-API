@@ -1,4 +1,3 @@
-/Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/bean/Vehicle.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/repository/Filter.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/resource/ResourceAssembler.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/resource/VehicleResourceAssembler.java
@@ -8,9 +7,10 @@
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/repository/ModelFilter.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/resource/VehicleResource.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/repository/MakeFilter.java
+/Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/domain/Vehicle.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/repository/YearFilter.java
-/Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/bean/Identifiable.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/repository/VehicleRepository.java
+/Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/domain/Identifiable.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/repository/FilterManager.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/repository/IdGenerator.java
 /Users/joy/Documents/Mitchell/vehicle-api/src/main/java/rest/controller/VehicleController.java

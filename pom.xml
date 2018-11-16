@@ -7,7 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>joy-mitchell-coding</name>
     <description>mitchell coding challenge</description>
-   
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -41,18 +41,6 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>1.2.5</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-spring</artifactId>
-			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

@@ -2,7 +2,7 @@ package rest.repository;
 
 import org.springframework.stereotype.Repository;
 
-import rest.bean.Vehicle;
+import rest.domain.Vehicle;
 
 @Repository
 public class VehicleRepository extends InMemRepository<Vehicle>{

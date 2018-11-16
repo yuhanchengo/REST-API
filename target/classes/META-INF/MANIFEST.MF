@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: joy
+Build-Jdk: 10.0.1
+Implementation-Title: joy-mitchell-coding
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: joy.mitchell.coding.challenge
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/vehicle-api/
+Created-By: Maven Integration for Eclipse
+

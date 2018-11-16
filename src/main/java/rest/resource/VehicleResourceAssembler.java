@@ -5,7 +5,7 @@ import org.springframework.hateoas.EntityLinks;
 import org.springframework.hateoas.Link;
 import org.springframework.stereotype.Component;
 
-import rest.bean.Vehicle;
+import rest.domain.Vehicle;
 
 @Component
 public class VehicleResourceAssembler extends ResourceAssembler<Vehicle, VehicleResource>{

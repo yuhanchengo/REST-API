@@ -7,7 +7,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import rest.bean.Identifiable;
+import rest.domain.Identifiable;
 
 public abstract class InMemRepository<T extends Identifiable> {
 	
